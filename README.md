@@ -1,14 +1,14 @@
 # [src-run] augustus-polyfill-library
 
-| Continuous Integration |   Code Quality Review   |    UnitTest Coverage    |
-|:----------------------:|:-----------------------:|:-----------------------:|
-| [![Travis](https://get.src.run/augustus-polyfill-library/travis_shield)](https://get.src.run/augustus-polyfill-library/travis) | [![Codacy](https://get.src.run/augustus-polyfill-library/codacy_shield)](https://get.src.run/augustus-polyfill-library/codacy) | [![Coveralls](https://get.src.run/augustus-polyfill-library/coveralls_shield)](https://get.src.run/augustus-polyfill-library/coveralls) |
+| Continuous Integration |
+|:----------------------:|
+| [![Travis](https://get.src.run/augustus-polyfill-library/travis_shield)](https://get.src.run/augustus-polyfill-library/travis) | 
 
 ## Overview
 
 [Welcome](https://get.src.run/go/readme_welcome)!
 The `src-run/augustus-polyfill-library` package provides
-a single include that wraps all polyfill implementations
+a single metapackage that wraps all polyfill implementations.
 
 ### Grouping
 
@@ -39,35 +39,6 @@ the CLI, use the following command.
 ```bash
 $ composer require src-run/augustus-polyfill-library
 ```
-
-## Reference
-
-### API Docs
-
-This package's API-documentation is available at [get.src.run/augustus-polyfill-library/api](https://get.src.run/augustus-polyfill-library/api),
-(as well as linked below via the *Reference* badge found under the *Additional Links*
-header). All API-reference is build against the *master* Git branch and updated
-automatically on each Git push---api-reference for *specific releases* will
-be provided once this package has matured.
-
-> The entire API-reference website is auto-generated using a quick,
-> reliable, and well-developed CLI tool called [Sami](https://get.src.run/go/sami).
-> It is rigerously and regularly tested through its use in large, complex projects,
-> such as the [Symfony Full-Stack Framework](https://get.src.run/go/symfony) 
-> <see: [get.src.run/go/api-ref-symfony](https://get.src.run/go/symfony-api)>, as well
-> as its use in smaller projects such
-> [Twig](https://get.src.run/go/sami-twig)
-> <see: [get.src.run/go/api-ref-twig](https://get.src.run/go/twig-api)>.
-> Reference Sami's [GitHub page](https://get.src.run/go/sami) to learn how to use
-> it with your own projects!
-
-### Examples/Tutorials
-
-Currently, there is no *"human-written"* documentation---outside of this README.
-Pending package stability and available resources, a
-[RTD (Read the Docs)](https://get.src.run/go/rtd) page will be published with
-additional information and tutorials, including real use-cases within the Symfony
-Framework.
 
 ## Contributing
 
@@ -113,4 +84,3 @@ file distributed with this source code for additional information.
 | *Stable Release*    | [![Packagist](https://get.src.run/augustus-polyfill-library/packagist_shield)](https://get.src.run/augustus-polyfill-library/packagist) |
 | *Dev Release*    | [![Packagist](https://get.src.run/augustus-polyfill-library/packagist_pre_shield)](https://get.src.run/augustus-polyfill-library/packagist) |
 | *License*    | [![License](https://get.src.run/augustus-polyfill-library/license_shield)](https://get.src.run/augustus-polyfill-library/license) |
-| *Reference*  | [![License](https://get.src.run/augustus-polyfill-library/api_shield)](https://get.src.run/augustus-polyfill-library/api) |
