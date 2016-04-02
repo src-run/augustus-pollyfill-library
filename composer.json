@@ -1,0 +1,38 @@
+{
+    "name"        : "src-run/augustus-polyfill-library",
+    "license"     : "MIT",
+    "type"        : "metapackage",
+    "homepage"    : "https://get.src.run/augustus-polyfill-library",
+    "description" : "This library acts as a single include that wraps all polyfill implementations.",
+    "support" : {
+        "email"  : "rmf@src.run",
+        "issues" : "https://get.src.run/augustus-polyfill-library/issues",
+        "source" : "https://get.src.run/augustus-polyfill-library/git",
+        "irc"    : "irc://irc.efnet.org/scribe"
+    },
+    "keywords"   : [
+        "augustus-polyfill-library", "exception", "library", "rmf", "src-run"
+    ],
+    "authors"    : [
+        {
+            "name"    : "Rob Frawley 2nd",
+            "email"   : "rmf@src.run",
+            "homepage": "https://get.src.run/rmf",
+            "role"    : "Project Lead"
+        }
+    ],
+    "require" : {
+        "php"              : ">=5.3.3|~5.4|~5.5|~5.6|~7.0",
+        "symfony/polyfill" : "~1.1"
+    },
+    "minimum-stability" : "dev",
+    "prefer-stable"     : true,
+    "config": {
+        "bin-dir" : "bin"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master" : "0.5-dev"
+        }
+    }
+}
