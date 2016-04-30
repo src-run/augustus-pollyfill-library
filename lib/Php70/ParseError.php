@@ -14,8 +14,6 @@ namespace SR\Polyfill\Php70;
 
 /**
  * Class ParseError.
- *
- * @package SR\Polyfill\Php70
  */
 class ParseError extends \Error
 {

@@ -14,8 +14,6 @@ namespace SR\Polyfill\Php70;
 
 /**
  * Class Throwable.
- *
- * @package SR\Polyfill\Php70
  */
 interface Throwable
 {

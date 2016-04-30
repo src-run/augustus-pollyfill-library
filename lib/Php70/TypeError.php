@@ -14,8 +14,6 @@ namespace SR\Polyfill\Php70;
 
 /**
  * Class TypeError.
- *
- * @package SR\Polyfill\Php70
  */
 class TypeError extends \Error
 {

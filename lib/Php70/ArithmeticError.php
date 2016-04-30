@@ -14,8 +14,6 @@ namespace SR\Polyfill\Php70;
 
 /**
  * Class ArithmeticError.
- *
- * @package SR\Polyfill\Php70
  */
 class ArithmeticError extends \Error
 {

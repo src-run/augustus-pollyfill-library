@@ -14,8 +14,6 @@ namespace SR\Polyfill\Utility;
 
 /**
  * Class Alias.
- *
- * @package SR\Polyfill\Utility
  */
 final class Alias
 {
@@ -46,7 +44,7 @@ final class Alias
      */
     final private static function exists($name)
     {
-        return (class_exists($name) || interface_exists($name) || trait_exists($name));
+        return class_exists($name) || interface_exists($name) || trait_exists($name);
     }
 }
 

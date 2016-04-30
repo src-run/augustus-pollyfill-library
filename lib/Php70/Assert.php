@@ -14,8 +14,6 @@ namespace SR\Polyfill\Php70;
 
 /**
  * Class Assert.
- *
- * @package SR\Polyfill\Php70
  */
 final class Assert
 {
@@ -24,13 +22,13 @@ final class Assert
      *
      * @return bool
      */
-    final static public function throwableEquitable($instance)
+    final public static function throwableEquitable($instance)
     {
         if (!is_object($instance)) {
             return false;
         }
 
-        return ($instance instanceof \Throwable || $instance instanceof \Error || $instance instanceof \Exception);
+        return $instance instanceof \Throwable || $instance instanceof \Error || $instance instanceof \Exception;
     }
 }
 

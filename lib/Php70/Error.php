@@ -14,8 +14,6 @@ namespace SR\Polyfill\Php70;
 
 /**
  * Class Error.
- *
- * @package SR\Polyfill\Php70
  */
 class Error extends \Exception implements \Throwable
 {
