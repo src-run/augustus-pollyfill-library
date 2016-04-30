@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the `src-run/augustus-exception-library` project.
+ * This file is part of the `src-run/augustus-polyfill-library` project.
  *
  * (c) Rob Frawley 2nd <rmf@src.run>
  * (c) Scribe Inc      <scr@src.run>
@@ -14,8 +14,6 @@ namespace SR\Polyfill\Tests\Fixture;
 
 /**
  * Class ExceptionPrePhp70Fixture.
- *
- * @package SR\Polyfill\Tests\Fixture
  */
 class ExceptionPrePhp70Fixture extends \Exception implements \Throwable
 {

@@ -15,8 +15,6 @@ use SR\Polyfill\Utility\Alias;
 
 /**
  * Class ClassAliasTest.
- *
- * @package SR\Polyfill\Tests\Utility
  */
 class AliasTest extends \PHPUnit_Framework_TestCase
 {
@@ -57,6 +55,5 @@ class AliasTest extends \PHPUnit_Framework_TestCase
         parent::tearDown();
     }
 }
-
 
 /* EOF */
