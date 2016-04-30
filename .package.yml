@@ -5,12 +5,12 @@ api_runner : ~
 api_paths  : lib
 env_make   : ~
 env_prep   : get-composer
-env_post   : 
+env_post   : ci-coveralls,ci-codacy
 php_conf   : timezone
 php_exts   : ~
 app_prep   : dep-composer
 app_post   : ~
 app_path   : ~
 pkg_name   : augustus-polyfill-library
-pkg_desc   : "single include that wraps all polyfill implementations."
+pkg_desc   : "library that includes symfony/polyfill-* and provides an Error/Throwable implementation for pre-7.0 PHP release"
 pkg_bndl   : false

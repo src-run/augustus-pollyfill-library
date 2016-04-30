@@ -1,31 +1,31 @@
 # [src-run] augustus-polyfill-library
 
-| Continuous Integration |
-|:----------------------:|
-| [![Travis](https://get.src.run/augustus-polyfill-library/travis_shield)](https://get.src.run/augustus-polyfill-library/travis) | 
+| Continuous Integration |   Code Quality Review   |    UnitTest Coverage    |
+|:----------------------:|:-----------------------:|:-----------------------:|
+| [![Travis](https://src.run/augustus-exception-library/travis_shield)](https://src.run/augustus-exception-library/travis) | [![Codacy](https://src.run/augustus-exception-library/codacy_shield)](https://src.run/augustus-exception-library/codacy) | [![Coveralls](https://src.run/augustus-exception-library/coveralls_shield)](https://src.run/augustus-exception-library/coveralls) |
 
 ## Overview
 
-[Welcome](https://get.src.run/go/readme_welcome)!
-The `src-run/augustus-polyfill-library` package provides
-a single metapackage that wraps all polyfill implementations.
+[Welcome](https://src.run/go/readme_welcome)!
+The `src-run/augustus-polyfill-library` package provides a
+library that includes symfony/polyfill-* and provides an Error/Throwable implementation for pre-7.0 PHP release
 
 ### Grouping
 
-This package is part of the [augustus](https://get.src.run/augustus-polyfill-library/group)
-group ([explanation](https://get.src.run/augustus-polyfill-library/group_explanation)),
-comprised of other releases with a concentration in 
+This package is part of the [augustus](https://src.run/augustus-polyfill-library/group)
+group ([explanation](https://src.run/augustus-polyfill-library/group_explanation)),
+comprised of other releases with a concentration in
 *core reflection base classes*,
 and related functionality.
 
 ### JTT
 
 This package represents a single project within a
-[large collection](https://get.src.run/go/explore) of open-source code released
+[large collection](https://src.run/go/explore) of open-source code released
 under the *SR* namespace, comprised of framework-agnostic libraries,
 and a number of Symfony bundles. These projects are authored and maintained
-by [Rob Frawley 2nd](https://get.src.run/rmf) and 
-[collaborators](https://get.src.run/augustus-polyfill-library/github_collaborators).
+by [Rob Frawley 2nd](https://src.run/rmf) and
+[collaborators](https://src.run/augustus-polyfill-library/github_collaborators).
 
 ## Quick Start
 
@@ -40,6 +40,35 @@ the CLI, use the following command.
 $ composer require src-run/augustus-polyfill-library
 ```
 
+## Reference
+
+### API Docs
+
+This package's API-documentation is available at [src.run/augustus-polyfill-library/api](https://src.run/augustus-polyfill-library/api),
+(as well as linked below via the *Reference* badge found under the *Additional Links*
+header). All API-reference is build against the *master* Git branch and updated
+automatically on each Git push---api-reference for *specific releases* will
+be provided once this package has matured.
+
+> The entire API-reference website is auto-generated using a quick,
+> reliable, and well-developed CLI tool called [Sami](https://src.run/go/sami).
+> It is rigerously and regularly tested through its use in large, complex projects,
+> such as the [Symfony Full-Stack Framework](https://src.run/go/symfony)
+> <see: [src.run/go/api-ref-symfony](https://src.run/go/symfony-api)>, as well
+> as its use in smaller projects such
+> [Twig](https://src.run/go/sami-twig)
+> <see: [src.run/go/api-ref-twig](https://src.run/go/twig-api)>.
+> Reference Sami's [GitHub page](https://src.run/go/sami) to learn how to use
+> it with your own projects!
+
+### Examples/Tutorials
+
+Currently, there is no *"human-written"* documentation---outside of this README.
+Pending package stability and available resources, a
+[RTD (Read the Docs)](https://src.run/go/rtd) page will be published with
+additional information and tutorials, including real use-cases within the Symfony
+Framework.
+
 ## Contributing
 
 ### Discussion
@@ -52,8 +81,8 @@ be joined using the following link
 ### Issues
 
 To report issues or request a new feature use
-[GitHub](https://get.src.run/augustus-polyfill-library/github_issues)
-or [GitLab](https://get.src.run/augustus-polyfill-library/gitlab_issues)
+[GitHub](https://src.run/augustus-polyfill-library/github_issues)
+or [GitLab](https://src.run/augustus-polyfill-library/gitlab_issues)
 to start a discussion. Include as much information as possible to aid in
 a quick resolution. Feel free to "ping" the topic if you don't get a
 response within a few days.
@@ -63,24 +92,25 @@ response within a few days.
 You created additional functionality during the use of this package? Send
 it back upstream! *Don't hesitate to submit a pull request!* Beyond the
 brief requirements outlined in the
-[contibuting guide](https://get.src.run/augustus-polyfill-library/contributing),
-your [imagination](https://get.src.run/go/readme_imagination)
+[contibuting guide](https://src.run/augustus-polyfill-library/contributing),
+your [imagination](https://src.run/go/readme_imagination)
 represents the only limitation.
 
 ## License
 
 This project is licensed under the
-[MIT License](https://get.src.run/go/mit), an
-[FSF](https://get.src.run/go/fsf)-/[OSI](https://get.src.run/go/osi)-approved
-and [GPL](https://get.src.run/go/gpl)-compatible, permissive free software
+[MIT License](https://src.run/go/mit), an
+[FSF](https://src.run/go/fsf)-/[OSI](https://src.run/go/osi)-approved
+and [GPL](https://src.run/go/gpl)-compatible, permissive free software
 license. Review the
-[LICENSE](https://get.src.run/augustus-polyfill-library/license)
+[LICENSE](https://src.run/augustus-polyfill-library/license)
 file distributed with this source code for additional information.
 
 ## Additional Links
 
 |       Purpose | Status        |
 |--------------:|:--------------|
-| *Stable Release*    | [![Packagist](https://get.src.run/augustus-polyfill-library/packagist_shield)](https://get.src.run/augustus-polyfill-library/packagist) |
-| *Dev Release*    | [![Packagist](https://get.src.run/augustus-polyfill-library/packagist_pre_shield)](https://get.src.run/augustus-polyfill-library/packagist) |
-| *License*    | [![License](https://get.src.run/augustus-polyfill-library/license_shield)](https://get.src.run/augustus-polyfill-library/license) |
+| *Stable Release*    | [![Packagist](https://src.run/augustus-polyfill-library/packagist_shield)](https://src.run/augustus-polyfill-library/packagist) |
+| *Dev Release*    | [![Packagist](https://src.run/augustus-polyfill-library/packagist_pre_shield)](https://src.run/augustus-polyfill-library/packagist) |
+| *License*    | [![License](https://src.run/augustus-polyfill-library/license_shield)](https://src.run/augustus-polyfill-library/license) |
+| *Reference*  | [![License](https://src.run/augustus-polyfill-library/api_shield)](https://src.run/augustus-polyfill-library/api) |
