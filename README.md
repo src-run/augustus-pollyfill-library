@@ -2,7 +2,7 @@
 
 | Continuous Integration |   Code Quality Review   |    UnitTest Coverage    |
 |:----------------------:|:-----------------------:|:-----------------------:|
-| [![Travis](https://src.run/augustus-serializer-library/travis_shield)](https://src.run/augustus-serializer-library/travis) | [![Codacy](https://src.run/augustus-serializer-library/codacy_shield)](https://src.run/augustus-serializer-library/codacy) | [![Coveralls](https://src.run/augustus-serializer-library/coveralls_shield)](https://src.run/augustus-serializer-library/coveralls) |
+| [![Travis](https://src.run/augustus-polyfill-library/travis_shield)](https://src.run/augustus-polyfill-library/travis) | [![Codacy](https://src.run/augustus-polyfill-library/codacy_shield)](https://src.run/augustus-polyfill-library/codacy) | [![Coveralls](https://src.run/augustus-polyfill-library/coveralls_shield)](https://src.run/augustus-polyfill-library/coveralls) |
 
 ## Overview
 
