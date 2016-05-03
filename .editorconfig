@@ -8,5 +8,8 @@ indent_style = space
 indent_size = 4
 charset = utf-8
 
+[*.json]
+indent_size = 2
+
 [*.{js|css|scss|less|yml|json}]
 indent_size = 2
