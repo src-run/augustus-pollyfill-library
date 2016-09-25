@@ -1,17 +1,16 @@
 
 # [src-run] augustus-polyfill-library
 
-|       Travis-CI        |      Codacy Rating      |      Code Coverage      |        Style-CI         |
-|:----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|
-| [![Travis](https://src.run/augustus-polyfill-library/travis.svg)](https://src.run/augustus-polyfill-library/travis) | [![Codacy](https://src.run/augustus-polyfill-library/codacy.svg)](https://src.run/augustus-polyfill-library/codacy) | [![Coveralls](https://src.run/augustus-polyfill-library/coveralls.svg)](https://src.run/augustus-polyfill-library/coveralls) | [![Coveralls](https://src.run/augustus-polyfill-library/styleci.svg)](https://src.run/augustus-polyfill-library/styleci) |
+|       Travis-CI        |      Codacy Rating      |      Code Coverage      |        Style-CI         |         Release         |    API Documentation    |
+|:----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|
+| [![Travis](https://src.run/augustus-polyfill-library/travis.svg)](https://src.run/augustus-polyfill-library/travis) | [![Codacy](https://src.run/augustus-polyfill-library/codacy.svg)](https://src.run/augustus-polyfill-library/codacy) | [![Coveralls](https://src.run/augustus-polyfill-library/coveralls.svg)](https://src.run/augustus-polyfill-library/coveralls) | [![Coveralls](https://src.run/augustus-polyfill-library/styleci.svg)](https://src.run/augustus-polyfill-library/styleci) | [![Packagist](https://src.run/augustus-polyfill-library/packagist.svg)](https://src.run/augustus-polyfill-library/packagist) | [![API Docs](https://src.run/augustus-polyfill-library/api.svg)](https://src.run/augustus-polyfill-library/api) | 
 
 
 ## Overview
 
-[Welcome](https://src.run/go/readme_welcome)!
-The `src-run/augustus-polyfill-library` package provides the following
+[Welcome](https://src.run/go/readme_welcome)! The `src-run/augustus-polyfill-library` package provides
 
-> library that includes symfony/polyfill-* and provides an Error/Throwable implementation for pre-7.0 PHP release
+> Symfony/polyfill-* and provides an Error/Throwable implementation for pre-7.0 PHP release.
 
 ### Grouping
 
@@ -116,5 +115,3 @@ information.
 | __Stable Release__ | [![Packagist](https://src.run/augustus-polyfill-library/packagist.svg)](https://src.run/augustus-polyfill-library/packagist)     |
 | __Dev Release__    | [![Packagist](https://src.run/augustus-polyfill-library/packagist_pre.svg)](https://src.run/augustus-polyfill-library/packagist) |
 | __License__        | [![License](https://src.run/augustus-polyfill-library/license.svg)](https://src.run/augustus-polyfill-library/license)           |
-| __Reference__      | [![License](https://src.run/augustus-polyfill-library/api.svg)](https://src.run/augustus-polyfill-library/api)                   |
-
