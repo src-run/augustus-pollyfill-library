@@ -42,6 +42,9 @@
 # PHPUnit (Non-Dist)
 /phpunit.xml
 
+# PHP-CS-Fixer
+/.php_cs.cache
+
 # Build data
 /build/*
 !build/.gitkeep
