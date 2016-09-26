@@ -11,9 +11,6 @@
 
 namespace SR\Polyfill\Php70;
 
-/**
- * Class DivisionByZeroError.
- */
 class DivisionByZeroError extends \ArithmeticError
 {
 }

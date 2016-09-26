@@ -11,9 +11,6 @@
 
 namespace SR\Polyfill\Php70;
 
-/**
- * Class AssertionError.
- */
 class AssertionError extends \Error
 {
 }

@@ -11,9 +11,6 @@
 
 namespace SR\Polyfill\Utility;
 
-/**
- * Class Alias.
- */
 final class Alias
 {
     /**
@@ -21,7 +18,7 @@ final class Alias
      *
      * @return bool
      */
-    final public static function toRootNamespace($qualifiedName)
+    final public static function toRootNamespace(string $qualifiedName) : bool
     {
         if (!self::exists($qualifiedName)) {
             return false;
@@ -41,7 +38,7 @@ final class Alias
      *
      * @return bool
      */
-    final private static function exists($name)
+    final private static function exists(string $name) : bool
     {
         return class_exists($name) || interface_exists($name) || trait_exists($name);
     }
