@@ -32,10 +32,7 @@
   "autoload" :     {
     "psr-4" : {
       "SR\\Polyfill\\": "lib/"
-    },
-    "files" : [
-      "bootstrap.php"
-    ]
+    }
   },
   "autoload-dev" : {
     "psr-4" : {
