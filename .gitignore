@@ -41,9 +41,11 @@
 
 # PHPUnit (Non-Dist)
 /phpunit.xml
+/.phpunit.result.cache
 
 # PHP-CS-Fixer
 /.php_cs.cache
+/.php-cs-fixer.cache
 
 # Build data
 /build/*

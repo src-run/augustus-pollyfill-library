@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the `src-run/augustus-silencer-library` project.
+ * This file is part of the `src-run/augustus-polyfill-library` project.
  *
  * (c) Rob Frawley 2nd <rmf@src.run>
  *
@@ -15,15 +15,12 @@ use SR\Polyfill\Utility\Alias;
 
 /**
  * Class ClassAliasTest.
+ *
+ * @coversNothing
  */
-class AliasTest extends \PHPUnit_Framework_TestCase
+class AliasTest extends \PHPUnit\Framework\TestCase
 {
-    public function setUp()
-    {
-        parent::setUp();
-    }
-
-    public function testToRootNamespace()
+    public function testToRootNamespace(): void
     {
         $this->assertFalse(class_exists('Alias'));
         $this->assertTrue(Alias::toRootNamespace('SR\Polyfill\Utility\Alias'));
@@ -35,24 +32,19 @@ class AliasTest extends \PHPUnit_Framework_TestCase
         $this->assertSame('SR\Polyfill\Utility\Alias', get_class($instance));
     }
 
-    public function testToRootNamespaceOnInvalidClassName()
+    public function testToRootNamespaceOnInvalidClassName(): void
     {
         $this->assertFalse(Alias::toRootNamespace('SR\Polyfill\Does\Not\Exist'));
     }
 
-    public function testToRootNamespaceOnRootClassAlreadyExists()
+    public function testToRootNamespaceOnRootClassAlreadyExists(): void
     {
         $this->assertFalse(Alias::toRootNamespace('SR\Polyfill\Does\Exist\In\Root\Namespace\Exception'));
     }
 
-    public function testToRootNamespaceOnRootClassName()
+    public function testToRootNamespaceOnRootClassName(): void
     {
         $this->assertFalse(Alias::toRootNamespace('Exception'));
-    }
-
-    public function tearDown()
-    {
-        parent::tearDown();
     }
 }
 
